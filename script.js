@@ -11,7 +11,7 @@ function calculate() {
   document.getElementById("height-val").textContent = height + " cm";
 
   // BMI formula (height converted from cm to meters)
-  bmi = (weight / Math.pow(height / 100, 2)).toFixed(1);
+  bmi = (weight / Math.pow(height / 100, 2)).toFixed(3);
   result.textContent = bmi;
 
   // Determine BMI category
